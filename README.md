@@ -156,9 +156,33 @@ ORDER BY qty DESC;
 - 📊 Dataset contains 1000 transaction records from January-March 2019
 - 💳 Five payment methods: E-wallet, Cash, Credit card
 
+## � Dashboard
+
+The `Walmart_sales_analytics(Dashbord).ipynb` notebook provides an interactive dashboard with 10 key visualizations:
+
+### Dashboard Visualizations
+
+1. **Total Sales by Product Line** - Bar chart comparing revenue across different product categories
+2. **Payment Method Distribution** - Donut chart showing customer payment preferences (Cash, Credit Card, E-wallet)
+3. **Monthly Sales Trend** - Line chart tracking sales performance from January to March
+4. **Average Customer Rating by City & Type** - Horizontal bar chart comparing customer satisfaction between Members and Non-members
+5. **Sales Distribution by Branch** - Boxplot displaying transaction value distribution across the three branches
+6. **Average Unit Price by Product Line** - Line chart identifying premium vs. budget-friendly product categories
+7. **Product Line Preference by Gender** - Count plot showing gender-based purchasing patterns across product lines
+8. **Distribution of Total Transaction Amounts** - Histogram with KDE showing typical transaction basket sizes
+9. **Correlation Heatmap** - Heatmap analyzing relationships between numerical variables (Unit Price, Quantity, Tax, etc.)
+10. **Total Gross Income by City** - Bar chart comparing profitability across Yangon, Mandalay, and Naypyitaw
+
+### Dashboard Usage
+- Open `Walmart_sales_analytics(Dashbord).ipynb` in Jupyter Notebook or JupyterLab
+- Run all cells to generate visualizations using Matplotlib and Seaborn
+- Customize visualizations by modifying filtering parameters or color palettes
+- Export charts as images for reports and presentations
+
 ## 🚀 Future Enhancements
 
-- 📊 Dashboard creation for visual insights
 - 🔮 Predictive analytics for sales forecasting
 - 🎯 Customer segmentation analysis
 - 📅 Seasonal trend analysis
+- 🎨 Interactive dashboards using Plotly or Tableau
+- 📱 Mobile-friendly sales tracking application
